@@ -129,12 +129,12 @@ export const questions: Question[] = [
   {
     id: 'valor-3',
     trait: 'valor',
-    text: ``,
+    text: `A chilling Church Inquisitor arrives at your camp with a squad of heavily armed Crusaders. Presenting a secret decree, he demands to take away your finest Centurion, accusing him of heresy. Defying the Inquisitor will be deemed the same crime.`,
     options: [
-      { text: `terrifying Church Inquisitor arrives at your camp with a squad of fully armed Crusaders, producing a secret order demanding to take away your best centurion, accusing him of being a heretic. Defying the Inquisitor will be considered the same crime.`, score: 1 },
-      { text: `Lie that the centurion went out on patrol yesterday. Secretly send someone to tell him to flee quickly and never come back.`, score: 2 },
-      { text: `Sternly refuse to hand over the man directly, demand that the Inquisitor provide solid evidence, and claim that you will write to the bishop to apply for a "Trial by Combat," using cumbersome procedures to delay time.`, score: 3 },
-      { text: `Draw your sword and order all archers in the camp to knock their arrows and aim at the Inquisitor. You coldly tell him that if he wants to take your man, he has to step over your dead body.`, score: 4 },
+      { text: `Personally disarm your Centurion and hand him over. War with the Church means certain death for you and excommunication for all your men. Compromise is the only law of survival.`, score: 1 },
+      { text: `Lie and claim the Centurion went out on patrol yesterday. Secretly dispatch a messenger telling him to flee immediately and never return.`, score: 2 },
+      { text: `Sternly refuse to hand him over directly. Demand absolute proof from the Inquisitor and declare that you will write to the Bishop to appeal for a 'Trial by Combat,' using bureaucratic delays to buy time.`, score: 3 },
+      { text: `Draw your longsword and order all archers in the camp to draw their bows against the Inquisitor. You coldly tell him: if he wants to take your man, he will have to step over your corpse.`, score: 4 },
     ],
   },
   {
@@ -151,12 +151,12 @@ export const questions: Question[] = [
   {
     id: 'valor-5',
     trait: 'valor',
-    text: ``,
+    text: `A severe famine ravages the city. Hundreds of maddened commoners, wielding pitchforks and torches, corner an innocent wandering scholar in a dead-end alley, accusing him of bringing a curse and preparing to burn him alive. You only have two guards by your side.`,
     options: [
-      { text: `famine erupts in the city. Hundreds of maddened commoners, holding pitchforks and torches, corner an innocent wandering scholar in a dead-end alley, accusing him of bringing a curse and preparing to burn him alive. You only have two guards by your side.`, score: 1 },
+      { text: `Order your guards to stand down. Inciting a popular revolt for a mere outsider would engulf the entire city in flames. As the protector of the realm, sacrificing a scapegoat to quell the riot is the logical choice.`, score: 1 },
       { text: `Hide in the dark and observe. Wait until the mob vents their anger and disperses, then send someone to collect the body and record it symbolically. You don't want to bring trouble upon yourself.`, score: 2 },
-      { text: `Fire a shot into the air from horseback (or shoot a whistling arrow), loudly reading the lord's law to try to disperse the crowd. Once the mob starts throwing stones at you, you have no choice but to retreat.`, score: 3 },
-      { text: `Dismount with drawn sword, walk alone to the stake and block the scholar. You clearly know that these irrational madmen will likely tear you to pieces together with him, but you will absolutely not compromise with the mob.`, score: 4 },
+      { text: `Fire a whistling arrow into the air from horseback, loudly proclaiming the Lord's law to try and disperse the crowd. Once the mob starts throwing stones at you, you have no choice but to retreat.`, score: 3 },
+      { text: `Dismount with drawn sword, walk alone to the pyre, and shield the scholar. You clearly know these irrational madmen will likely tear you to pieces along with him, but you will absolutely not compromise with the mob.`, score: 4 },
     ],
   },
   {
@@ -470,12 +470,12 @@ export const questions: Question[] = [
   {
     id: 'justice-2',
     trait: 'justice',
-    text: ``,
+    text: `During a great famine in the city, a wealthy merchant hoards tons of grain in his cellar, waiting for the highest bidder. One of your soldiers, red-eyed with hunger, smashes open the cellar and steals a sack of wheat to save his dying younger brother, but is caught. By law, theft is punished by chopping off the right hand.`,
     options: [
-      { text: `great famine hits the city. A wealthy merchant hoards tons of grain in his cellar, waiting for the highest bidder. One of your soldiers, red-eyed with hunger, smashes open the cellar and steals a sack of wheat to save his dying younger brother, but is caught. By law, theft is punished by chopping off the right hand.`, score: 1 },
+      { text: `Immediately order the soldier's right hand to be severed. The law is the law; if the commander condones the looting of private property, merchants will flee, and the entire city will starve.`, score: 1 },
       { text: `Publicly chop off the soldier's right hand to maintain the dignity of the law, but secretly use your own money to buy high-priced grain and deliver it to his brother's bed. You use personal wealth to make up for the coldness of the law.`, score: 2 },
-      { text: `Forcefully legalize that sack of wheat under the name of "military requisition," and sentence the soldier to repay the merchant ten times over with his military pay after the war. You use bureaucratic loopholes to give each a slap on the wrist.`, score: 3 },
-      { text: `Chop off the right hand the soldier used to steal, and simultaneously strip the merchant naked and lock him to the pillory on charges of "hoarding during a disaster year," confiscate all his grain, and divide it equally in public. Absolute fairness favors no class.`, score: 4 },
+      { text: `Forcefully legalize that sack of wheat under the name of 'military requisition,' and sentence the soldier to repay the merchant ten times over with his military pay after the war. You use bureaucratic loopholes to give each a slap on the wrist.`, score: 3 },
+      { text: `Chop off the right hand the soldier used to steal, and simultaneously strip the merchant naked and lock him to the pillory on charges of 'hoarding during a disaster year,' confiscate all his grain, and divide it equally in public. Absolute fairness favors no class.`, score: 4 },
     ],
   },
   {
