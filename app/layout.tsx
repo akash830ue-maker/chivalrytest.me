@@ -1,5 +1,6 @@
 import "./globals.css";
 import type { Metadata } from 'next';
+import Script from 'next/script';
 import { Inter } from 'next/font/google';
 import Footer from '@/components/shared/Footer';
 import Navbar from '@/components/shared/Navbar';
@@ -51,6 +52,18 @@ export default function RootLayout({
       <body
         className={`${inter.className} flex min-h-screen flex-col antialiased`}
       >
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-581CTY5RR0"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-581CTY5RR0');
+  `}
+        </Script>
         <Navbar />
         <div className="flex-1">{children}</div>
         <Footer />
