@@ -8,7 +8,10 @@ export interface AnswerOption {
 export interface Question {
   id: string;
   trait: Trait;
+  /** Long-form scenario / vignette */
   text: string;
+  /** Short explicit question line shown above choices (optional; UI falls back if omitted) */
+  prompt?: string;
   options: AnswerOption[];
 }
 

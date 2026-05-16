@@ -104,8 +104,12 @@ export default function TestPage() {
               <h2 className="text-xs font-bold text-amber-500 uppercase tracking-widest mb-4">
                 {currentQuestion.trait}
               </h2>
-              <p className="text-lg sm:text-xl text-slate-100 leading-relaxed mb-8">
+              <p className="text-lg sm:text-xl text-slate-100 leading-relaxed mb-6">
                 {currentQuestion.text}
+              </p>
+
+              <p className="mb-8 border-t border-slate-800/90 pt-6 text-center text-base font-semibold leading-snug text-amber-400 sm:text-lg">
+                {currentQuestion.prompt ?? "What will you do, Knight?"}
               </p>
 
               <div className="space-y-4 mb-8">
