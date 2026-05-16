@@ -8,7 +8,10 @@ import Navbar from '@/components/shared/Navbar';
 const inter = Inter({ subsets: ['latin'], display: 'swap' });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://chivalrytest.me'),
+  metadataBase: new URL('https://www.chivalrytest.me'),
+  alternates: {
+    canonical: '/',
+  },
   title:
     'Take the Chivalry Test: Which Classical Virtue Do You Embody? | ChivalryTest.me',
   description:
@@ -23,7 +26,7 @@ export const metadata: Metadata = {
     title: 'Chivalry Test: Reveal Your Knight Archetype',
     description:
       'A set of untouchable principles slumbers within us all. Take the test and discover yours.',
-    url: 'https://chivalrytest.me',
+    url: 'https://www.chivalrytest.me',
     siteName: 'Chivalry Test',
     images: [
       {
