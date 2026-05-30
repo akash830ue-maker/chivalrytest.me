@@ -43,6 +43,9 @@ export const metadata: Metadata = {
     title: 'Take the Chivalry Test',
     description: 'Which Classical Virtue Do You Embody?',
   },
+  other: {
+    'websitelaunches-verification': '674b3e52bb16984ef785eb63c327d3c8',
+  },
 };
 
 export default function RootLayout({
